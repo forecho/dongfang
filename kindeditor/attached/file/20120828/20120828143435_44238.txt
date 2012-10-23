@@ -1,8 +1,0 @@
-https://ibsbjstar.ccb.com.cn/app/ccbMain
-https://www.cebbank.com/per/preEpayLogin.do
-
-SELECT * FROM (SELECT * FROM  `new` ORDER BY  `addtime` DESC) `temp` GROUP BY c_id ORDER BY  `addtime` DESC;
-
-
-
-java -jar D:\JavaBridge.jar SERVLET_LOCAL:8080
