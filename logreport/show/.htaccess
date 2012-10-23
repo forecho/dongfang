@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "logreport"
+AuthUserFile /data/home/hmu104058/auth/e4y9i2s2a1n1u4j0m5a9
+<Limit GET POST PUT>
+require user  hmu104058
+</Limit>

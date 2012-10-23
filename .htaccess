@@ -1,0 +1,3 @@
+RewriteEngine on
+ RewriteCond $1 !^(index\.php|images|css|kindeditor|thumb_file|p_file|backup|par_file|e_file|captcha_file|font|js|robots\.txt|fav\.ico)
+ RewriteRule ^(.*)$ index.php/$1 [L]
